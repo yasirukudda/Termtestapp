@@ -1,15 +1,13 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="si">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
     <meta name="google-site-verification" content="masters quizzes sri lanka" />
     <meta name="description" content="Play Master's Quizzes! Test your knowledge with our free interactive quizzes. Challenge yourself and see your score instantly.For Sri Lankans only.Power of BCG!">
-    <meta name="keywords"
-    content="masters quizzes pro,master's quizzes,masters quizzes sri lanka,master quizzes,master quiz,masterquiz,masters quizzes pro in sri lanka,quiz website,super quizzes,master's quizzes pro srilanka" /> 
+    <meta name="keywords" content="masters quizzes pro,master's quizzes,masters quizzes sri lanka,master quizzes,master quiz,masterquiz,masters quizzes pro in sri lanka,quiz website,super quizzes,master's quizzes pro srilanka" /> 
     <title>Master's Quizzes</title>
-    <link rel="preload" href="googlea351c0b5bf4d1191.html">
-    <link rel="canonical" href="https://yasirukudda.github.io/Termtestapp.com/" />
+    <link rel="canonical" href="https://github.io" />
     <link rel="preload" href="globe.png" as="image">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -72,11 +70,23 @@
         <button class="btn-menu no-shadow-btn" style="margin-top:20px; width:280px;" onclick="selectGrade()">O/L Mode</button>
     </div>
 
-    <div id="subject-screen" class="screen">
+        <div id="subject-screen" class="screen">
         <div class="top-nav"><button class="btn-nav-icon" onclick="showGrades()">⬅️</button></div>
         <h1 class="q-header-title no-shadow-title">Select Subject</h1>
-        <button class="btn-menu no-shadow-btn" onclick="showTerms('භූගෝල විද්‍යාව')">භූගෝල විද්‍යාව</button>
-        <button class="btn-menu no-shadow-btn" onclick="showTerms('ඉතිහාසය')">ඉතිහාසය</button>
+        
+        <!-- විෂයන් ලැයිස්තුව -->
+        <div class="subject-list" style="overflow-y: auto; width: 100%; display: flex; flex-direction: column; align-items: center; padding-bottom: 20px;">
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('භූගෝල විද්‍යාව')">භූගෝල විද්‍යාව</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('ඉතිහාසය')">ඉතිහාසය</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('විද්‍යාව')">විද්‍යාව</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('සිංහල')">සිංහල</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('ගණිතය')">ගණිතය</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('බුද්ධ ධර්මය')">බුද්ධ ධර්මය</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('තොරතුරු තාක්ෂණය')">I.C.T</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('පුරවැසි අධ්‍යාපනය')">පුරවැසි අධ්‍යාපනය</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('සෞඛ්‍යය හා ශාරීරික අධ්‍යාපනය')">සෞඛ්‍යය</button>
+            <button class="btn-menu no-shadow-btn" onclick="showTerms('නාට්‍ය හා රංගකලාව')">Drama</button>
+        </div>
     </div>
 
     <div id="term-screen" class="screen">
