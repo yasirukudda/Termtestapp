@@ -189,7 +189,7 @@ body {
 .q-box { 
     flex-grow: 1; 
     min-height: 60px; 
-    background: #fff; 
+    background: var(--bg-cyan); 
     border: 3px solid #000; 
     border-radius: 15px; 
     display: flex; 
@@ -261,7 +261,7 @@ body {
     border: 8px double #000; 
     padding: 20px 30px; 
     border-radius: 20px; 
-    background: #fff;
+    background: var(--bg-cyan);
 }
 
 /* 11. Overlays & Cards */
@@ -326,3 +326,7 @@ textarea { height: 80px; padding: 10px; font-family: monospace; }
 
 /* Click Effect for Options */
 .opt-row:active { background-color: rgba(0,0,0,0.05); }
+
+.xxx{
+    display: none;
+}
