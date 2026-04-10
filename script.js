@@ -15,7 +15,7 @@ window.onload = () => {
                 showScreen('login-screen', true); 
             }, 400);
         }
-    }, 3000); 
+    }, 3000);
 };
 
 // 2. NAVIGATION
