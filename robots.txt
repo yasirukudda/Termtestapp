@@ -1,0 +1,31 @@
+# Blocks known AI bots from scraping your project data
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+# Blocks Google Gemini from using your site for AI training and answers
+User-agent: Google-Extended
+Disallow: /
+
+
+# Directives for search engines (Google, Bing, etc.)
+User-agent: *
+# Files and folders to block
+Disallow: /uses.json
+Disallow: /master_data.json
+Disallow: /robots.txt
+# Explicitly allows search engines to read your core styling and scripts
+Disallow: /style.css
+Disallow: /index.html
+Disallow: /script.js
+
+# Your correct sitemap location
+Sitemap: https://yasirukudda.github.io/Termtestapp.com/
