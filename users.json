@@ -2,9 +2,13 @@
   "accounts": [
     {
       "user": "didula",
-      "pass": "hi",
+      "pass": "hi"
+    },
+    {
       "user": "xxx",
-      "pass": "xxx",
+      "pass": "xxx"
+    },
+    {
       "user": "chenuka",
       "pass": "aaa"
     }
