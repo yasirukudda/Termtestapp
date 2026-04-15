@@ -110,7 +110,7 @@
     <!-- 8. QUIZ CONTAINER -->
     <div id="quiz-container" class="screen">
         <div class="top-nav"><button class="btn-nav-icon" onclick="handleBackRequest()">⬅️</button></div>
-        <h1 class="q-header-title" id="active-subj">Geography</h1>
+        <h1 class="q-header-title" id="active-subj" style="text-decoration: double underline #FF1493; text-underline-offset: 10px;">Geography</h1>
         <div class="stats-bar">
             <div id="timer-box" style="color: var(--error-red);">Time: 05s</div>
             <div>Score: <span id="live-score">0%</span></div>
@@ -154,7 +154,7 @@
     <div id="result-screen" class="screen">
         <h1 class="q-header-title" style="font-size: 40px; text-decoration: 4px double underline #FF1493; margin: 14px; text-underline-offset: 10px;">Final Score</h1>
         <div id="final-score" style="font-size: 48px; font-weight: bold; margin: 20px 0;">0%</div>
-        <button class="btn-menu" onclick="location.reload()">REPLAY</button>
+        <button class="btn-menu" onclick="showScreen('menu-screen')">REPLAY</button>
     </div>
 
     <script src="script.js"></script>
